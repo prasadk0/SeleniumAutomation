@@ -1,0 +1,10 @@
+name: HRMproject
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - TextNG.dependsOn
+    - TextNG.SequencingPriority
+    - TextNG.invokationCount
+    - TextNG.login
+

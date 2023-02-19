@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HRMproject">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TextNG.dependsOn"/>
+      <class name="TextNG.SequencingPriority"/>
+      <class name="TextNG.invokationCount"/>
+      <class name="TextNG.login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- HRMproject -->
